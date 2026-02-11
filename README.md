@@ -7,7 +7,7 @@
 
 **A DIY open-source recreation of the Anki Vector robot, powered by modern AI.**
 
-This project aims to replicate and enhance the capabilities of the Vector robot using off-the-shelf hardware (ESP32-CAM) and a powerful Python backend. It features **"Shadow,"** a witty AI assistant capable of real-time object detection, depth estimation, and natural language conversation with emotional context.
+This project aims to replicate the capabilities of the Vector robot using off-the-shelf hardware (ESP32-CAM) and a powerful Python backend. It features **"Shadow,"** a witty AI assistant capable of real-time object detection, depth estimation, and natural language conversation with emotional context. The LLM is taken from Ollama 3 API.
 
 ---
 
@@ -19,7 +19,6 @@ This project aims to replicate and enhance the capabilities of the Vector robot 
 - [Project Structure](#-project-structure)
 - [Installation & Setup](#-installation--setup)
 - [Usage](#-usage)
-- [Contributing](#-contributing)
 
 ---
 
@@ -128,20 +127,6 @@ The system will process your text, generate a witty response, and perform action
 
 You: "Hello Shadow, can you see me?" Shadow: "I see a human looking at a screen. Looking good! [Emotion: Happy]" (Robot moves head up and down)
 
-## Contributing
-This project is a work in progress! We welcome contributions for:
-
-Adding voice recognition (STT) and Text-to-Speech (TTS).
-
-Improving the path planning algorithm.
-
-Designing 3D printable parts for the chassis.
-
-Fork the repo.
-
-Create a feature branch.
-
-Submit a Pull Request.
 
 ## License
 MIT License
